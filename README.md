@@ -144,6 +144,14 @@ Ou, ao rodar em máquinas com processadores arm64:
 docker compose --file docker-compose-arm64.yaml up
 ```
 
+A aplicação será disponibilizada em [localhost:8080](http://localhost:8080), tendo seu swagger em [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html).
+
+### [Coleções Postman / Insomnia](collection)
+- Setar a variável {{url}} no Postman para apontamento no localhost:8080
+
+
+# Início rápido - Entrega Fase 2
+
 Para rodar a aplicação no K8s é necessário ter o Minikube instalado e executar o seguinte shell diretamente da raiz do projeto:
 ```shell
 ./k8s.sh
@@ -154,11 +162,4 @@ Aguardar alguns segundo o start dos Pods serem finalizados e rodar no terminal o
 kubectl port-forward svc/fiap-fastfood -n default &
 ```
 
-A aplicação será disponibilizada em [localhost:8080](http://localhost:8080), tendo seu swagger em [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html).
-
-
 O vídeo da implementação pode ser acessado neste link: [localhost:8080](http://localhost:8080).
-
-
-### [Coleções Postman / Insomnia](collection)
-- Setar a variável {{url}} no Postman para apontamento no localhost:8080
