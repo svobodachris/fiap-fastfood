@@ -154,7 +154,7 @@ A aplicação será disponibilizada em [localhost:8080](http://localhost:8080), 
 
 Neste módulo, refatoramos o projeto seguindo os padrões Clean Achitecture e também disponibilizamos a aplicação no K8s.
 
-![Clean Architecture](https://miro.medium.com/v2/resize:fit:1400/0*iU9Ks05_GTtGh6zV.jpg(
+![Clean Architecture](https://miro.medium.com/v2/resize:fit:1400/0*iU9Ks05_GTtGh6zV.jpg)
 
 Para rodar a aplicação no K8s é necessário ter o Minikube instalado e executar o seguinte shell diretamente da raiz do projeto:
 ```shell
