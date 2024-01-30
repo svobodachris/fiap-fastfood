@@ -22,6 +22,7 @@
 - [x] Vavr
 - [x] JsonPatch
 - [x] Miro (DDD) - Link: https://miro.com/app/board/uXjVMjm7RWw=/?share_link_id=111499527949
+- [x] Minicube 
 
 
 # Dicionário de Linguagem Ubíqua
