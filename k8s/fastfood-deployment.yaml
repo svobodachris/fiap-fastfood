@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.32.0 (HEAD)
+  labels:
+    io.kompose.service: fiap-fastfood
+  name: fiap-fastfood
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: fiap-fastfood
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.32.0 (HEAD)
+      labels:
+        io.kompose.network/fiap-fastfood-network: "true"
+        io.kompose.service: fiap-fastfood
+    spec:
+      containers:
+        - env:
+            - name: MONGODB_AUTHDB
+              value: admin
+            - name: MONGODB_DATABASE
+              value: fastfood
+            - name: MONGODB_HOST
+              value: mongo
+            - name: MONGODB_PASSWORD
+              value: rootpassword
+            - name: MONGODB_PORT
+              value: "27017"
+            - name: MONGODB_USERNAME
+              value: root
+            - name: SPRING_PROFILES_ACTIVE
+              value: local
+          image: csvoboda182/fiap-fastfood
+          name: fiap-fastfood
+          ports:
+            - containerPort: 8080
+              hostPort: 8080
+              protocol: TCP
+      restartPolicy: Always
