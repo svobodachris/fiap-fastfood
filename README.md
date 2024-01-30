@@ -166,4 +166,4 @@ Aguardar alguns segundo o start dos Pods serem finalizados e rodar no terminal o
 kubectl port-forward svc/fiap-fastfood 8080:8080 -n default &
 ```
 
-O vídeo da implementação pode ser acessado neste link: [Apresentação Entrega - Fase 2](https://vimeo.com/907687370?share=copy).
+O vídeo da implementação desta fase pode ser acessado através deste link: [Apresentação Entrega - Fase 2](https://vimeo.com/907687370?share=copy).
