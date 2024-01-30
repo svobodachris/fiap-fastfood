@@ -159,7 +159,7 @@ Para rodar a aplicação no K8s é necessário ter o Minikube instalado e execut
 
 Aguardar alguns segundo o start dos Pods serem finalizados e rodar no terminal o seguinte comando para conseguir acessar a porta 8080 e acessar o Swagger da API pelo navegador:
 ```shell
-kubectl port-forward svc/fiap-fastfood -n default &
+kubectl port-forward svc/fiap-fastfood 8080:8080 -n default &
 ```
 
-O vídeo da implementação pode ser acessado neste link: [localhost:8080](http://localhost:8080).
+O vídeo da implementação pode ser acessado neste link: [Apresentação Entrega - Fase 2](https://vimeo.com/907687370?share=copy).
