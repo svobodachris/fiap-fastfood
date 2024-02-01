@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.23.1-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="313.75" width="811.0" x="1082.25" y="486.125"/>
+              <y:Fill hasColor="false" transparent="false"/>
+              <y:BorderStyle color="#326CE5" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="node_width" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.0" horizontalTextPosition="right" iconData="1" iconTextGap="10" modelName="internal" modelPosition="t" textColor="#326CE5" verticalTextPosition="center" visible="true" width="811.0" x="0.0" xml:space="preserve" y="0.0">minikube (com ReplicaSets)</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:NodeBounds considerNodeLabelSize="true"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="15" bottomF="15.1484375" left="15" leftF="15.0" right="33" rightF="32.5" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="75.0" width="200.0" x="354.5" y="241.5"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#326CE5" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasLineColor="false" height="34.0" horizontalTextPosition="right" iconData="1" iconTextGap="10" modelName="internal" modelPosition="t" textColor="#326CE5" verticalTextPosition="center" visible="true" width="200.0" x="0.0" xml:space="preserve" y="0.0">(k8s)</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="75.0" closedWidth="200.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0" yfiles.foldertype="group">
+          <data key="d4" xml:space="preserve"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="234.6015625" width="237.0" x="1112.25" y="535.125"/>
+                  <y:Fill hasColor="false" transparent="false"/>
+                  <y:BorderStyle color="#326CE5" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="node_width" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.0" horizontalTextPosition="right" iconData="1" iconTextGap="10" modelName="internal" modelPosition="t" textColor="#326CE5" verticalTextPosition="center" visible="true" width="237.0" x="0.0" xml:space="preserve" y="0.0">Container de aplicação</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:NodeBounds considerNodeLabelSize="true"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="12" bottomF="11.5" left="24" leftF="23.5" right="22" rightF="21.5" top="10" topF="9.5"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="75.0" width="200.0" x="748.0" y="293.5"/>
+                  <y:Fill color="#F5F5F5" transparent="false"/>
+                  <y:BorderStyle color="#326CE5" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasLineColor="false" height="34.0" horizontalTextPosition="right" iconData="1" iconTextGap="10" modelName="internal" modelPosition="t" textColor="#326CE5" verticalTextPosition="center" visible="true" width="200.0" x="0.0" xml:space="preserve" y="0.0">(k8s)</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="75.0" closedWidth="200.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n0::n0:">
+            <node id="n0::n0::n0">
+              <data key="d6">
+                <y:SVGNode>
+                  <y:Geometry height="122.0" width="162.0" x="1150.75" y="593.625"/>
+                  <y:Fill color="#CCCCFF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.6015625" horizontalTextPosition="center" iconTextGap="4" modelName="eight_pos" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.0546875" x="34.97265625" xml:space="preserve" y="126.0">fiap-fastfood</y:NodeLabel>
+                  <y:SVGNodeProperties usingVisualBounds="true"/>
+                  <y:SVGModel svgBoundsPolicy="0">
+                    <y:SVGContent refid="2"/>
+                  </y:SVGModel>
+                </y:SVGNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n0::n1" yfiles.foldertype="group">
+          <data key="d4" xml:space="preserve"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="234.6015625" width="274.0" x="1571.75" y="535.125"/>
+                  <y:Fill hasColor="false" transparent="false"/>
+                  <y:BorderStyle color="#326CE5" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="node_width" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.0" horizontalTextPosition="right" iconData="1" iconTextGap="10" modelName="internal" modelPosition="t" textColor="#326CE5" verticalTextPosition="center" visible="true" width="274.0" x="0.0" xml:space="preserve" y="0.0">Container de banco de dados</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:NodeBounds considerNodeLabelSize="true"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="12" bottomF="11.5" left="19" leftF="18.5" right="64" rightF="63.5" top="10" topF="9.5"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="75.0" width="200.0" x="748.0" y="293.5"/>
+                  <y:Fill color="#F5F5F5" transparent="false"/>
+                  <y:BorderStyle color="#326CE5" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasLineColor="false" height="34.0" horizontalTextPosition="right" iconData="1" iconTextGap="10" modelName="internal" modelPosition="t" textColor="#326CE5" verticalTextPosition="center" visible="true" width="200.0" x="0.0" xml:space="preserve" y="0.0">(k8s)</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="75.0" closedWidth="200.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n0::n1:">
+            <node id="n0::n1::n0">
+              <data key="d6">
+                <y:SVGNode>
+                  <y:Geometry height="122.0" width="162.0" x="1605.25" y="593.625"/>
+                  <y:Fill color="#CCCCFF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.6015625" horizontalTextPosition="center" iconTextGap="4" modelName="eight_pos" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="60.9296875" x="50.53515625" xml:space="preserve" y="126.0">fastfood</y:NodeLabel>
+                  <y:SVGNodeProperties usingVisualBounds="true"/>
+                  <y:SVGModel svgBoundsPolicy="0">
+                    <y:SVGContent refid="3"/>
+                  </y:SVGModel>
+                </y:SVGNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n0::n2">
+          <data key="d5"/>
+          <data key="d6">
+            <y:SVGNode>
+              <y:Geometry height="59.077247619628906" width="66.61650085449219" x="1417.051124572754" y="622.8871574401855"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="31.308250427246094" y="63.077247619628906">
+                <y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:SVGNodeProperties usingVisualBounds="false"/>
+              <y:SVGModel svgBoundsPolicy="0">
+                <y:SVGContent refid="4"/>
+              </y:SVGModel>
+            </y:SVGNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n1">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="42.9556999206543" width="69.0154037475586" x="712.8672981262207" y="633.1471500396729"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="45.349609375" x="11.832897186279297" xml:space="preserve" y="46.9556999206543">Usuário<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="59.077247619628906" width="66.61650085449219" x="916.9417495727539" y="625.0863761901855"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="204.759765625" x="-69.0716323852539" xml:space="preserve" y="63.077247619628906">Acessa API via
+Swagger
+Postmann/Insonmia ou método HTTP
+Porta 8080<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="false"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="n0::e0" source="n0::n0::n0" target="n0::n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="2.19921875"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e1" source="n0::n2" target="n0::n1::n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="2.19921875" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="199.46875" x="-126.9097900390625" xml:space="preserve" y="55.798828125">consulta/persiste no banco de dados
+mesma rede privada "default"
+PORTA 27017<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="55.798828125" distanceToCenter="false" position="right" ratio="-27.167625427246094" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e0" source="n1" target="n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n2" target="n0::n0::n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1">
+        <yed:ScaledIcon xScale="1.0" yScale="1.0">
+          <yed:ImageIcon image="6"/>
+        </yed:ScaledIcon>
+      </y:Resource>
+      <y:Resource id="2" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg viewBox="27.354 51.771 163.986 124.049" width="163.986px" height="124.049px" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;rect x="29.316" y="53.799" width="160" height="120" style="stroke-miterlimit: 9; paint-order: stroke; stroke-width: 2px; stroke: rgb(200, 221, 191); fill: rgb(255, 255, 255);" rx="5.934" ry="5.934"/&gt;
+  &lt;path d="M 89.66 165.742 C 89.353 165.742 89.036 165.732 88.71 165.712 C 88.383 165.699 88.053 165.672 87.72 165.632 C 87.38 165.599 87.063 165.555 86.77 165.502 C 86.47 165.455 86.196 165.402 85.95 165.342 L 85.95 163.462 C 86.27 163.495 86.633 163.522 87.04 163.542 C 87.446 163.569 87.866 163.585 88.3 163.592 C 88.74 163.605 89.156 163.612 89.55 163.612 C 89.956 163.612 90.306 163.575 90.6 163.502 C 90.893 163.435 91.12 163.315 91.28 163.142 C 91.44 162.962 91.52 162.719 91.52 162.412 L 91.52 161.982 C 91.52 161.629 91.416 161.359 91.21 161.172 C 90.996 160.985 90.7 160.892 90.32 160.892 L 89.31 160.892 C 88.176 160.892 87.31 160.642 86.71 160.142 C 86.11 159.649 85.81 158.805 85.81 157.612 L 85.81 157.032 C 85.81 155.879 86.14 155.035 86.8 154.502 C 87.46 153.969 88.403 153.702 89.63 153.702 C 90.07 153.702 90.503 153.725 90.93 153.772 C 91.363 153.812 91.78 153.862 92.18 153.922 C 92.58 153.982 92.923 154.042 93.21 154.102 L 93.21 155.982 C 92.723 155.949 92.176 155.915 91.57 155.882 C 90.97 155.849 90.413 155.832 89.9 155.832 C 89.54 155.832 89.216 155.869 88.93 155.942 C 88.65 156.009 88.436 156.139 88.29 156.332 C 88.136 156.525 88.06 156.795 88.06 157.142 L 88.06 157.462 C 88.06 157.882 88.176 158.182 88.41 158.362 C 88.65 158.542 88.996 158.632 89.45 158.632 L 90.62 158.632 C 91.333 158.632 91.923 158.762 92.39 159.022 C 92.856 159.289 93.203 159.649 93.43 160.102 C 93.656 160.562 93.77 161.085 93.77 161.672 L 93.77 162.342 C 93.77 163.275 93.596 163.985 93.25 164.472 C 92.903 164.965 92.423 165.299 91.81 165.472 C 91.196 165.652 90.48 165.742 89.66 165.742 ZM 97.768 169.432 L 95.398 169.432 L 95.398 157.052 L 97.388 157.052 L 97.768 157.862 C 97.968 157.702 98.191 157.552 98.438 157.412 C 98.685 157.265 98.951 157.149 99.238 157.062 C 99.525 156.969 99.828 156.922 100.148 156.922 C 100.675 156.922 101.131 157.022 101.518 157.222 C 101.911 157.429 102.228 157.722 102.468 158.102 C 102.715 158.489 102.898 158.955 103.018 159.502 C 103.131 160.055 103.188 160.672 103.188 161.352 C 103.188 162.272 103.098 163.062 102.918 163.722 C 102.738 164.382 102.428 164.885 101.988 165.232 C 101.541 165.579 100.928 165.752 100.148 165.752 C 99.748 165.752 99.335 165.705 98.908 165.612 C 98.488 165.512 98.108 165.372 97.768 165.192 L 97.768 169.432 Z M 99.388 163.802 C 99.628 163.802 99.861 163.735 100.088 163.602 C 100.315 163.469 100.495 163.225 100.628 162.872 C 100.761 162.519 100.828 162.012 100.828 161.352 C 100.828 160.712 100.765 160.209 100.638 159.842 C 100.518 159.475 100.351 159.215 100.138 159.062 C 99.925 158.902 99.675 158.822 99.388 158.822 C 99.055 158.822 98.748 158.875 98.468 158.982 C 98.195 159.089 97.961 159.195 97.768 159.302 L 97.768 163.382 C 97.981 163.515 98.231 163.619 98.518 163.692 C 98.805 163.765 99.095 163.802 99.388 163.802 ZM 107.122 165.642 L 104.752 165.642 L 104.752 157.052 L 106.582 157.052 L 107.122 158.362 C 107.429 157.969 107.779 157.632 108.172 157.352 C 108.559 157.079 109.019 156.942 109.552 156.942 C 109.672 156.942 109.792 156.945 109.912 156.952 C 110.039 156.965 110.156 156.989 110.262 157.022 L 110.262 159.452 C 110.102 159.432 109.932 159.412 109.752 159.392 C 109.579 159.379 109.412 159.372 109.252 159.372 C 108.939 159.372 108.659 159.405 108.412 159.472 C 108.159 159.545 107.929 159.649 107.722 159.782 C 107.516 159.915 107.316 160.089 107.122 160.302 L 107.122 165.642 ZM 113.626 155.782 L 111.806 155.782 C 111.58 155.782 111.466 155.675 111.466 155.462 L 111.466 153.902 C 111.466 153.675 111.58 153.562 111.806 153.562 L 113.626 153.562 C 113.726 153.562 113.803 153.595 113.856 153.662 C 113.91 153.722 113.936 153.802 113.936 153.902 L 113.936 155.462 C 113.936 155.675 113.833 155.782 113.626 155.782 Z M 113.886 165.642 L 111.516 165.642 L 111.516 157.052 L 113.886 157.052 L 113.886 165.642 ZM 118.076 165.642 L 115.706 165.642 L 115.706 157.052 L 117.656 157.052 L 118.076 157.932 C 118.396 157.665 118.799 157.429 119.286 157.222 C 119.772 157.009 120.269 156.902 120.776 156.902 C 121.482 156.902 122.029 157.042 122.416 157.322 C 122.796 157.602 123.062 157.972 123.216 158.432 C 123.376 158.899 123.456 159.415 123.456 159.982 L 123.456 165.642 L 121.086 165.642 L 121.086 160.282 C 121.086 160.002 121.036 159.772 120.936 159.592 C 120.829 159.412 120.686 159.275 120.506 159.182 C 120.326 159.082 120.109 159.032 119.856 159.032 C 119.629 159.032 119.412 159.059 119.206 159.112 C 118.999 159.165 118.802 159.242 118.616 159.342 C 118.429 159.435 118.249 159.545 118.076 159.672 L 118.076 165.642 ZM 130.02 169.612 L 127.45 169.612 C 126.903 169.612 126.42 169.532 126 169.372 C 125.58 169.212 125.247 168.979 125 168.672 C 124.753 168.372 124.63 167.995 124.63 167.542 L 124.63 167.292 C 124.63 166.832 124.76 166.439 125.02 166.112 C 125.28 165.785 125.62 165.539 126.04 165.372 C 126.453 165.199 126.897 165.112 127.37 165.112 L 128.07 165.852 C 127.837 165.852 127.63 165.889 127.45 165.962 C 127.263 166.035 127.12 166.145 127.02 166.292 C 126.92 166.432 126.87 166.609 126.87 166.822 L 126.87 167.002 C 126.87 167.309 126.977 167.542 127.19 167.702 C 127.403 167.862 127.707 167.942 128.1 167.942 L 129.73 167.942 C 130.13 167.942 130.45 167.865 130.69 167.712 C 130.93 167.559 131.05 167.329 131.05 167.022 L 131.05 166.762 C 131.05 166.569 131.003 166.405 130.91 166.272 C 130.817 166.139 130.683 166.035 130.51 165.962 C 130.337 165.889 130.1 165.852 129.8 165.852 L 127.89 165.852 C 126.93 165.852 126.22 165.672 125.76 165.312 C 125.293 164.959 125.06 164.519 125.06 163.992 C 125.06 163.559 125.187 163.195 125.44 162.902 C 125.687 162.609 126.037 162.412 126.49 162.312 C 126.143 162.132 125.87 161.912 125.67 161.652 C 125.47 161.392 125.327 161.109 125.24 160.802 C 125.153 160.495 125.11 160.179 125.11 159.852 C 125.11 159.219 125.24 158.695 125.5 158.282 C 125.76 157.869 126.157 157.559 126.69 157.352 C 127.217 157.152 127.88 157.052 128.68 157.052 L 133.33 157.052 L 133.33 158.342 L 132.02 158.582 C 132.12 158.689 132.217 158.815 132.31 158.962 C 132.403 159.109 132.487 159.295 132.56 159.522 C 132.627 159.749 132.66 160.035 132.66 160.382 C 132.66 160.869 132.557 161.309 132.35 161.702 C 132.143 162.102 131.813 162.419 131.36 162.652 C 130.907 162.885 130.307 163.002 129.56 163.002 L 128.04 163.002 C 127.753 163.002 127.517 163.045 127.33 163.132 C 127.15 163.219 127.06 163.372 127.06 163.592 C 127.06 163.772 127.137 163.899 127.29 163.972 C 127.45 164.039 127.623 164.072 127.81 164.072 L 130.18 164.072 C 130.84 164.072 131.4 164.159 131.86 164.332 C 132.32 164.499 132.673 164.772 132.92 165.152 C 133.167 165.532 133.29 166.032 133.29 166.652 L 133.29 166.892 C 133.29 167.732 133.023 168.395 132.49 168.882 C 131.957 169.369 131.133 169.612 130.02 169.612 Z M 128.37 161.222 L 129.29 161.222 C 129.617 161.222 129.87 161.172 130.05 161.072 C 130.223 160.972 130.343 160.835 130.41 160.662 C 130.483 160.482 130.52 160.275 130.52 160.042 C 130.52 159.742 130.473 159.502 130.38 159.322 C 130.293 159.142 130.163 159.015 129.99 158.942 C 129.817 158.862 129.603 158.822 129.35 158.822 L 128.45 158.822 C 128.05 158.822 127.747 158.912 127.54 159.092 C 127.34 159.265 127.24 159.572 127.24 160.012 C 127.24 160.425 127.337 160.732 127.53 160.932 C 127.717 161.125 127.997 161.222 128.37 161.222 Z" transform="matrix(1, 0, 0, 1, 0, 0)" style="fill: rgb(63, 161, 16); white-space: pre;"/&gt;
+  &lt;g id="Layer_2" data-name="Layer 2" transform="matrix(0.824032, 0, 0, 0.824032, 69.384415, 61.836838)"&gt;
+    &lt;g id="logos"&gt;
+      &lt;path class="cls-1" d="M88.4,5.6a42.32,42.32,0,0,1-5.2,9.1A48.46,48.46,0,1,0,15.5,84l1.8,1.6A48.41,48.41,0,0,0,96.8,52C98.2,39.8,94.5,24.2,88.4,5.6ZM22.5,84.4a4.12,4.12,0,1,1-.6-5.8A4.21,4.21,0,0,1,22.5,84.4ZM88.1,69.9C76.2,85.8,50.6,80.4,34.3,81.2c0,0-2.9.2-5.8.6,0,0,1.1-.5,2.5-1,11.5-4,16.9-4.8,23.9-8.4C68,65.7,81.1,51,83.7,35.8c-5,14.6-20.2,27.2-34,32.3C40.2,71.6,23.1,75,23.1,75l-.7-.4c-11.6-5.7-12-30.9,9.2-39,9.3-3.6,18.1-1.6,28.2-4,10.7-2.5,23.1-10.5,28.1-21C93.5,27.5,100.3,53.7,88.1,69.9Z" style="fill: rgb(109, 179, 63);"/&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="3" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg viewBox="27.354 51.771 163.986 124.049" width="163.986px" height="124.049px" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;rect x="29.316" y="53.799" width="160" height="120" style="stroke-miterlimit: 9; paint-order: stroke; stroke-width: 2px; stroke: rgb(200, 221, 191); fill: rgb(255, 255, 255);" rx="5.934" ry="5.934"/&gt;
+  &lt;path d="M 76.299 165.642 L 74.009 165.642 L 75.389 153.802 L 77.659 153.802 L 80.379 162.872 L 83.089 153.802 L 85.339 153.802 L 86.729 165.642 L 84.449 165.642 L 83.419 156.922 L 83.789 156.952 L 81.469 165.642 L 79.249 165.642 L 76.889 156.952 L 77.289 156.942 L 76.299 165.642 ZM 91.858 165.722 C 91.158 165.722 90.555 165.649 90.048 165.502 C 89.548 165.362 89.142 165.122 88.828 164.782 C 88.515 164.435 88.285 163.982 88.138 163.422 C 87.998 162.855 87.928 162.155 87.928 161.322 C 87.928 160.449 87.998 159.725 88.138 159.152 C 88.285 158.585 88.515 158.139 88.828 157.812 C 89.142 157.485 89.552 157.255 90.058 157.122 C 90.565 156.989 91.165 156.922 91.858 156.922 C 92.572 156.922 93.182 156.992 93.688 157.132 C 94.188 157.272 94.595 157.502 94.908 157.822 C 95.222 158.149 95.452 158.599 95.598 159.172 C 95.738 159.739 95.808 160.455 95.808 161.322 C 95.808 162.175 95.742 162.889 95.608 163.462 C 95.468 164.029 95.242 164.479 94.928 164.812 C 94.622 165.139 94.215 165.372 93.708 165.512 C 93.202 165.652 92.585 165.722 91.858 165.722 Z M 91.858 163.832 C 92.145 163.832 92.388 163.805 92.588 163.752 C 92.788 163.699 92.948 163.589 93.068 163.422 C 93.188 163.262 93.282 163.009 93.348 162.662 C 93.415 162.322 93.448 161.875 93.448 161.322 C 93.448 160.755 93.415 160.305 93.348 159.972 C 93.282 159.632 93.188 159.382 93.068 159.222 C 92.948 159.055 92.788 158.945 92.588 158.892 C 92.388 158.839 92.145 158.812 91.858 158.812 C 91.585 158.812 91.348 158.839 91.148 158.892 C 90.948 158.945 90.785 159.055 90.658 159.222 C 90.532 159.382 90.438 159.632 90.378 159.972 C 90.318 160.305 90.288 160.755 90.288 161.322 C 90.288 161.875 90.318 162.322 90.378 162.662 C 90.438 163.009 90.532 163.262 90.658 163.422 C 90.785 163.589 90.948 163.699 91.148 163.752 C 91.348 163.805 91.585 163.832 91.858 163.832 ZM 99.743 165.642 L 97.373 165.642 L 97.373 157.052 L 99.323 157.052 L 99.743 157.932 C 100.063 157.665 100.466 157.429 100.953 157.222 C 101.44 157.009 101.936 156.902 102.443 156.902 C 103.15 156.902 103.696 157.042 104.083 157.322 C 104.463 157.602 104.73 157.972 104.883 158.432 C 105.043 158.899 105.123 159.415 105.123 159.982 L 105.123 165.642 L 102.753 165.642 L 102.753 160.282 C 102.753 160.002 102.703 159.772 102.603 159.592 C 102.496 159.412 102.353 159.275 102.173 159.182 C 101.993 159.082 101.776 159.032 101.523 159.032 C 101.296 159.032 101.08 159.059 100.873 159.112 C 100.666 159.165 100.47 159.242 100.283 159.342 C 100.096 159.435 99.916 159.545 99.743 159.672 L 99.743 165.642 ZM 111.687 169.612 L 109.117 169.612 C 108.57 169.612 108.087 169.532 107.667 169.372 C 107.247 169.212 106.914 168.979 106.667 168.672 C 106.42 168.372 106.297 167.995 106.297 167.542 L 106.297 167.292 C 106.297 166.832 106.427 166.439 106.687 166.112 C 106.947 165.785 107.287 165.539 107.707 165.372 C 108.12 165.199 108.564 165.112 109.037 165.112 L 109.737 165.852 C 109.504 165.852 109.297 165.889 109.117 165.962 C 108.93 166.035 108.787 166.145 108.687 166.292 C 108.587 166.432 108.537 166.609 108.537 166.822 L 108.537 167.002 C 108.537 167.309 108.644 167.542 108.857 167.702 C 109.07 167.862 109.374 167.942 109.767 167.942 L 111.397 167.942 C 111.797 167.942 112.117 167.865 112.357 167.712 C 112.597 167.559 112.717 167.329 112.717 167.022 L 112.717 166.762 C 112.717 166.569 112.67 166.405 112.577 166.272 C 112.484 166.139 112.35 166.035 112.177 165.962 C 112.004 165.889 111.767 165.852 111.467 165.852 L 109.557 165.852 C 108.597 165.852 107.887 165.672 107.427 165.312 C 106.96 164.959 106.727 164.519 106.727 163.992 C 106.727 163.559 106.854 163.195 107.107 162.902 C 107.354 162.609 107.704 162.412 108.157 162.312 C 107.81 162.132 107.537 161.912 107.337 161.652 C 107.137 161.392 106.994 161.109 106.907 160.802 C 106.82 160.495 106.777 160.179 106.777 159.852 C 106.777 159.219 106.907 158.695 107.167 158.282 C 107.427 157.869 107.824 157.559 108.357 157.352 C 108.884 157.152 109.547 157.052 110.347 157.052 L 114.997 157.052 L 114.997 158.342 L 113.687 158.582 C 113.787 158.689 113.884 158.815 113.977 158.962 C 114.07 159.109 114.154 159.295 114.227 159.522 C 114.294 159.749 114.327 160.035 114.327 160.382 C 114.327 160.869 114.224 161.309 114.017 161.702 C 113.81 162.102 113.48 162.419 113.027 162.652 C 112.574 162.885 111.974 163.002 111.227 163.002 L 109.707 163.002 C 109.42 163.002 109.184 163.045 108.997 163.132 C 108.817 163.219 108.727 163.372 108.727 163.592 C 108.727 163.772 108.804 163.899 108.957 163.972 C 109.117 164.039 109.29 164.072 109.477 164.072 L 111.847 164.072 C 112.507 164.072 113.067 164.159 113.527 164.332 C 113.987 164.499 114.34 164.772 114.587 165.152 C 114.834 165.532 114.957 166.032 114.957 166.652 L 114.957 166.892 C 114.957 167.732 114.69 168.395 114.157 168.882 C 113.624 169.369 112.8 169.612 111.687 169.612 Z M 110.037 161.222 L 110.957 161.222 C 111.284 161.222 111.537 161.172 111.717 161.072 C 111.89 160.972 112.01 160.835 112.077 160.662 C 112.15 160.482 112.187 160.275 112.187 160.042 C 112.187 159.742 112.14 159.502 112.047 159.322 C 111.96 159.142 111.83 159.015 111.657 158.942 C 111.484 158.862 111.27 158.822 111.017 158.822 L 110.117 158.822 C 109.717 158.822 109.414 158.912 109.207 159.092 C 109.007 159.265 108.907 159.572 108.907 160.012 C 108.907 160.425 109.004 160.732 109.197 160.932 C 109.384 161.125 109.664 161.222 110.037 161.222 ZM 119.873 165.722 C 119.173 165.722 118.57 165.649 118.063 165.502 C 117.563 165.362 117.157 165.122 116.843 164.782 C 116.53 164.435 116.3 163.982 116.153 163.422 C 116.013 162.855 115.943 162.155 115.943 161.322 C 115.943 160.449 116.013 159.725 116.153 159.152 C 116.3 158.585 116.53 158.139 116.843 157.812 C 117.157 157.485 117.567 157.255 118.073 157.122 C 118.58 156.989 119.18 156.922 119.873 156.922 C 120.587 156.922 121.197 156.992 121.703 157.132 C 122.203 157.272 122.61 157.502 122.923 157.822 C 123.237 158.149 123.467 158.599 123.613 159.172 C 123.753 159.739 123.823 160.455 123.823 161.322 C 123.823 162.175 123.757 162.889 123.623 163.462 C 123.483 164.029 123.257 164.479 122.943 164.812 C 122.637 165.139 122.23 165.372 121.723 165.512 C 121.217 165.652 120.6 165.722 119.873 165.722 Z M 119.873 163.832 C 120.16 163.832 120.403 163.805 120.603 163.752 C 120.803 163.699 120.963 163.589 121.083 163.422 C 121.203 163.262 121.297 163.009 121.363 162.662 C 121.43 162.322 121.463 161.875 121.463 161.322 C 121.463 160.755 121.43 160.305 121.363 159.972 C 121.297 159.632 121.203 159.382 121.083 159.222 C 120.963 159.055 120.803 158.945 120.603 158.892 C 120.403 158.839 120.16 158.812 119.873 158.812 C 119.6 158.812 119.363 158.839 119.163 158.892 C 118.963 158.945 118.8 159.055 118.673 159.222 C 118.547 159.382 118.453 159.632 118.393 159.972 C 118.333 160.305 118.303 160.755 118.303 161.322 C 118.303 161.875 118.333 162.322 118.393 162.662 C 118.453 163.009 118.547 163.262 118.673 163.422 C 118.8 163.589 118.963 163.699 119.163 163.752 C 119.363 163.805 119.6 163.832 119.873 163.832 ZM 130.508 165.642 L 125.498 165.642 L 125.498 153.802 L 130.508 153.802 C 131.308 153.802 131.974 153.942 132.508 154.222 C 133.041 154.509 133.464 154.915 133.778 155.442 C 134.098 155.969 134.321 156.595 134.448 157.322 C 134.574 158.049 134.638 158.849 134.638 159.722 C 134.638 161.055 134.484 162.159 134.178 163.032 C 133.878 163.905 133.424 164.559 132.818 164.992 C 132.204 165.425 131.434 165.642 130.508 165.642 Z M 127.868 155.932 L 127.868 163.512 L 130.268 163.512 C 130.761 163.512 131.151 163.372 131.438 163.092 C 131.724 162.805 131.934 162.382 132.068 161.822 C 132.201 161.255 132.268 160.555 132.268 159.722 C 132.268 158.955 132.224 158.322 132.138 157.822 C 132.058 157.329 131.934 156.942 131.768 156.662 C 131.601 156.389 131.391 156.199 131.138 156.092 C 130.891 155.985 130.601 155.932 130.268 155.932 L 127.868 155.932 ZM 141.241 165.642 L 136.371 165.642 L 136.371 153.802 L 141.031 153.802 C 142.204 153.802 143.061 154.072 143.601 154.612 C 144.141 155.152 144.411 155.915 144.411 156.902 C 144.411 157.375 144.344 157.789 144.211 158.142 C 144.078 158.502 143.888 158.795 143.641 159.022 C 143.394 159.255 143.101 159.415 142.761 159.502 C 143.014 159.562 143.261 159.662 143.501 159.802 C 143.741 159.942 143.961 160.129 144.161 160.362 C 144.354 160.595 144.508 160.882 144.621 161.222 C 144.734 161.555 144.791 161.942 144.791 162.382 C 144.791 163.182 144.654 163.822 144.381 164.302 C 144.108 164.782 143.708 165.125 143.181 165.332 C 142.654 165.539 142.008 165.642 141.241 165.642 Z M 138.741 160.502 L 138.741 163.512 L 141.171 163.512 C 141.451 163.512 141.691 163.459 141.891 163.352 C 142.098 163.245 142.258 163.082 142.371 162.862 C 142.478 162.635 142.531 162.335 142.531 161.962 C 142.531 161.655 142.474 161.395 142.361 161.182 C 142.241 160.969 142.081 160.802 141.881 160.682 C 141.674 160.562 141.438 160.502 141.171 160.502 L 138.741 160.502 Z M 138.741 155.932 L 138.741 158.682 L 141.051 158.682 C 141.391 158.682 141.658 158.555 141.851 158.302 C 142.051 158.055 142.151 157.729 142.151 157.322 C 142.164 156.802 142.058 156.439 141.831 156.232 C 141.604 156.032 141.331 155.932 141.011 155.932 L 138.741 155.932 Z" transform="matrix(1, 0, 0, 1, 0, 0)" style="fill: rgb(63, 161, 16); white-space: pre;"/&gt;
+  &lt;g transform="matrix(2.499813, 0, 0, 2.499813, -211.766846, -176.867661)"&gt;
+    &lt;path d="M 128.355 95.55 L 129.209 97.154 C 129.401 97.45 129.609 97.712 129.854 97.956 C 130.572 98.665 131.242 99.422 131.858 100.222 C 133.305 102.122 134.281 104.232 134.978 106.514 C 135.396 107.908 135.623 109.338 135.64 110.784 C 135.71 115.107 134.228 118.819 131.24 121.904 C 130.754 122.393 130.229 122.842 129.67 123.246 C 129.374 123.246 129.234 123.019 129.112 122.81 C 128.89 122.422 128.742 121.997 128.676 121.555 C 128.571 121.032 128.502 120.509 128.536 119.969 L 128.536 119.725 C 128.512 119.673 128.251 95.673 128.355 95.55 Z" fill="#599636"/&gt;
+    &lt;path d="M 128.355 95.497 C 128.32 95.427 128.285 95.48 128.25 95.514 C 128.267 95.864 128.145 96.176 127.954 96.474 C 127.744 96.77 127.466 96.997 127.187 97.241 C 125.637 98.583 124.417 100.204 123.44 102.017 C 122.14 104.457 121.47 107.072 121.28 109.825 C 121.193 110.818 121.594 114.322 121.907 115.333 C 122.761 118.017 124.295 120.266 126.282 122.218 C 126.77 122.688 127.292 123.124 127.832 123.543 C 127.989 123.543 128.006 123.403 128.042 123.299 C 128.111 123.076 128.163 122.849 128.199 122.619 L 128.549 120.005 Z" fill="#6cac48"/&gt;
+    &lt;path d="M 129.209 124.308 C 129.244 123.908 129.436 123.576 129.645 123.245 C 129.435 123.158 129.279 122.985 129.157 122.792 C 129.052 122.609 128.965 122.417 128.897 122.217 C 128.653 121.485 128.601 120.717 128.531 119.969 L 128.531 119.516 C 128.444 119.586 128.426 120.178 128.426 120.266 C 128.375 121.057 128.27 121.843 128.112 122.619 C 128.06 122.933 128.025 123.246 127.832 123.525 C 127.832 123.56 127.832 123.595 127.849 123.647 C 128.163 124.571 128.249 125.512 128.302 126.471 L 128.302 126.821 C 128.302 127.239 128.285 127.151 128.632 127.291 C 128.772 127.343 128.928 127.361 129.068 127.465 C 129.173 127.465 129.19 127.378 129.19 127.308 L 129.138 126.733 L 129.138 125.129 C 129.121 124.849 129.173 124.571 129.208 124.309 Z" fill="#c2bfbf"/&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="4" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="68px" height="60px" viewBox="-0.435 -0.869 68 60" enable-background="new -0.435 -0.869 68 60"
+	 xml:space="preserve"&gt;
+&lt;defs&gt;
+&lt;/defs&gt;
+&lt;path fill="#666666" d="M52.462,30.881c-0.021,0-0.037,0.01-0.059,0.012c-0.021-0.002-0.037-0.012-0.059-0.012h-18.5v-7.555
+	c0-0.414-0.335-0.75-0.75-0.75c-0.414,0-0.75,0.336-0.75,0.75v7.555h-18.5c-0.02,0-0.037,0.01-0.057,0.012
+	c-0.02-0.002-0.037-0.012-0.057-0.012c-0.414,0-0.75,0.336-0.75,0.75v3.834c0,0.414,0.336,0.75,0.75,0.75s0.75-0.336,0.75-0.75
+	v-3.084H51.71v3.084c0,0.414,0.336,0.75,0.75,0.75s0.75-0.336,0.75-0.75v-3.834C53.212,31.217,52.876,30.881,52.462,30.881z"/&gt;
+&lt;linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="130.7236" y1="-184.1631" x2="130.7236" y2="-191.9565" gradientTransform="matrix(1 0 0 -1 -97.6001 -158.6377)"&gt;
+	&lt;stop  offset="0" style="stop-color:#9CD7FF"/&gt;
+	&lt;stop  offset="1" style="stop-color:#3C89C9"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_1_)" d="M36.296,29.976c-0.832,0-1.513-0.681-1.513-1.513v-1.424c0-0.832-0.681-1.513-1.513-1.513h-0.214
+	c-0.832,0-1.513,0.681-1.513,1.513v1.424c0,0.832-0.681,1.513-1.513,1.513h-2.499c-0.832,0-1.513,0.681-1.513,1.513v0.317
+	c0,0.832,0.681,1.513,1.513,1.513h11.187c0.832,0,1.513-0.681,1.513-1.513v-0.317c0-0.833-0.681-1.513-1.513-1.513H36.296z"/&gt;
+&lt;linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="605.8877" y1="2040.6665" x2="593.1709" y2="2040.6665" gradientTransform="matrix(1 0 0 1 -585.5996 -1982.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_2_)" d="M20.205,57.452c0,0.519-3.619,0.752-6.627,0.752c-2.083,0-5.846-0.186-6.089-0.678
+	c0,0.238,0,0.806,0,0.89c0,0.389,2.573,0.661,6.084,0.661c3.511,0,6.632-0.344,6.632-0.729C20.205,58.264,20.205,57.7,20.205,57.452
+	z"/&gt;
+&lt;path fill="#808080" d="M13.846,56.806c3.512,0,6.358,0.313,6.358,0.699s-2.846,0.763-6.358,0.763c-3.59,0-6.358-0.375-6.358-0.763
+	S10.335,56.806,13.846,56.806z"/&gt;
+&lt;linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="600.833" y1="2037.4702" x2="598.1563" y2="2037.4702" gradientTransform="matrix(1 0 0 1 -585.5996 -1982.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#999999"/&gt;
+	&lt;stop  offset="0.0417" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.1617" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.2821" style="stop-color:#5D5D5D"/&gt;
+	&lt;stop  offset="0.4021" style="stop-color:#515151"/&gt;
+	&lt;stop  offset="0.5212" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.6202" style="stop-color:#565656"/&gt;
+	&lt;stop  offset="0.7817" style="stop-color:#6E6E6E"/&gt;
+	&lt;stop  offset="0.9844" style="stop-color:#969696"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_3_)" d="M15.215,57.657c0,0-0.792,0.053-1.339,0.053s-1.338-0.053-1.338-0.053v-5.231h2.677V57.657z"/&gt;
+&lt;radialGradient id="SVGID_4_" cx="465.1113" cy="2023.4497" r="12.8975" gradientTransform="matrix(1.15 0 0 1 -526.6041 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="1" style="stop-color:#666666"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_4_)" d="M0.065,36.888c0-0.59,0.482-1.071,1.072-1.071H26.98c0.589,0,1.071,0.481,1.071,1.071v16.108
+	c0,0.589-0.482,1.07-1.071,1.07H1.137c-0.59,0.002-1.072-0.481-1.072-1.07V36.888z"/&gt;
+&lt;path fill="none" stroke="#666666" stroke-width="0.1305" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M0.065,36.888c0-0.59,0.482-1.071,1.072-1.071H26.98c0.589,0,1.071,0.481,1.071,1.071v16.108c0,0.589-0.482,1.07-1.071,1.07H1.137
+	c-0.59,0.002-1.072-0.481-1.072-1.07V36.888z"/&gt;
+&lt;radialGradient id="SVGID_5_" cx="439.1309" cy="2019.0845" r="28.5715" fx="461.6079" fy="2015.234" gradientTransform="matrix(1.1935 0 0 1 -509.6013 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_5_)" d="M0.613,37.436c0-0.591,0.482-1.072,1.071-1.072h24.871c0.589,0,1.071,0.481,1.071,1.072v14.893
+	c0,0.59-0.482,1.072-1.071,1.072H1.685c-0.589,0-1.071-0.482-1.071-1.072V37.436z"/&gt;
+&lt;radialGradient id="SVGID_6_" cx="440.0439" cy="2019.1304" r="18.3134" gradientTransform="matrix(1.1923 0 0 1 -510.0601 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#9CD7FF"/&gt;
+	&lt;stop  offset="1" style="stop-color:#3C89C9"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_6_)" d="M0.917,37.679c0-0.59,0.482-1.071,1.072-1.071h24.262c0.589,0,1.071,0.481,1.071,1.071v14.406
+	c0,0.588-0.482,1.069-1.071,1.069H1.989c-0.59,0-1.072-0.481-1.072-1.069V37.679z"/&gt;
+&lt;path opacity="0.24" fill="#F2F2F2" d="M0.917,49.11V37.679c0-0.59,0.482-1.071,1.072-1.071h24.262c0.589,0,1.071,0.481,1.071,1.071
+	v7.252l-12.407,2.646c-0.57,0.146-1.52,0.293-2.107,0.326L0.917,49.11z"/&gt;
+&lt;linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="644.3887" y1="2040.6665" x2="631.6719" y2="2040.6665" gradientTransform="matrix(1 0 0 1 -585.5996 -1982.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_7_)" d="M58.706,57.452c0,0.518-3.621,0.752-6.627,0.752c-2.084,0-5.848-0.186-6.09-0.678
+	c0,0.237,0,0.805,0,0.889c0,0.389,2.572,0.662,6.084,0.662s6.633-0.344,6.633-0.729C58.706,58.263,58.706,57.7,58.706,57.452z"/&gt;
+&lt;path fill="#808080" d="M52.347,56.805c3.512,0,6.357,0.313,6.357,0.699s-2.847,0.762-6.357,0.762c-3.59,0-6.357-0.373-6.357-0.762
+	C45.989,57.118,48.837,56.805,52.347,56.805z"/&gt;
+&lt;linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="639.333" y1="2037.4683" x2="636.6553" y2="2037.4683" gradientTransform="matrix(1 0 0 1 -585.5996 -1982.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#999999"/&gt;
+	&lt;stop  offset="0.0417" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.1617" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.2821" style="stop-color:#5D5D5D"/&gt;
+	&lt;stop  offset="0.4021" style="stop-color:#515151"/&gt;
+	&lt;stop  offset="0.5212" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.6202" style="stop-color:#565656"/&gt;
+	&lt;stop  offset="0.7817" style="stop-color:#6E6E6E"/&gt;
+	&lt;stop  offset="0.9844" style="stop-color:#969696"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_8_)" d="M53.716,57.657c0,0-0.791,0.052-1.34,0.052c-0.547,0-1.338-0.052-1.338-0.052v-5.232h2.678V57.657z"
+	/&gt;
+&lt;radialGradient id="SVGID_9_" cx="498.5898" cy="2023.4487" r="12.8975" gradientTransform="matrix(1.15 0 0 1 -526.6041 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="1" style="stop-color:#666666"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_9_)" d="M38.566,36.887c0-0.59,0.481-1.072,1.071-1.072h25.844c0.589,0,1.07,0.482,1.07,1.072v16.107
+	c0,0.59-0.481,1.072-1.07,1.072H39.638c-0.59,0-1.071-0.482-1.071-1.072V36.887z"/&gt;
+&lt;path fill="none" stroke="#666666" stroke-width="0.1305" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M38.566,36.887c0-0.59,0.481-1.072,1.071-1.072h25.844c0.589,0,1.07,0.482,1.07,1.072v16.107c0,0.59-0.481,1.072-1.07,1.072H39.638
+	c-0.59,0-1.071-0.482-1.071-1.072V36.887z"/&gt;
+&lt;radialGradient id="SVGID_10_" cx="471.3896" cy="2019.0845" r="28.5697" fx="493.8652" fy="2015.2343" gradientTransform="matrix(1.1935 0 0 1 -509.6013 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_10_)" d="M39.114,37.434c0-0.59,0.482-1.072,1.071-1.072h24.87c0.589,0,1.07,0.482,1.07,1.072v14.895
+	c0,0.589-0.481,1.07-1.07,1.07h-24.87c-0.589,0-1.071-0.481-1.071-1.07V37.434z"/&gt;
+&lt;radialGradient id="SVGID_11_" cx="472.334" cy="2019.1294" r="18.3139" gradientTransform="matrix(1.1923 0 0 1 -510.0601 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#9CD7FF"/&gt;
+	&lt;stop  offset="1" style="stop-color:#3C89C9"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_11_)" d="M39.419,37.678c0-0.59,0.481-1.072,1.07-1.072h24.264c0.588,0,1.07,0.482,1.07,1.072v14.406
+	c0,0.588-0.482,1.07-1.07,1.07H40.489c-0.589,0-1.07-0.482-1.07-1.07V37.678z"/&gt;
+&lt;path opacity="0.24" fill="#F2F2F2" d="M39.419,49.108v-11.43c0-0.59,0.481-1.072,1.07-1.072h24.264c0.588,0,1.07,0.482,1.07,1.072
+	v7.252l-12.408,2.645c-0.57,0.146-1.52,0.295-2.106,0.326L39.419,49.108z"/&gt;
+&lt;linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="624.8936" y1="2004.9155" x2="612.1787" y2="2004.9155" gradientTransform="matrix(1 0 0 1 -585.5996 -1982.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_12_)" d="M39.212,21.701c0,0.518-3.621,0.752-6.626,0.752c-2.083,0-5.847-0.186-6.089-0.678
+	c0,0.238,0,0.805,0,0.889c0,0.389,2.573,0.662,6.084,0.662c3.51,0,6.631-0.344,6.631-0.729
+	C39.212,22.513,39.212,21.949,39.212,21.701z"/&gt;
+&lt;path fill="#808080" d="M32.854,21.055c3.511,0,6.358,0.313,6.358,0.699c0,0.386-2.848,0.762-6.358,0.762
+	c-3.589,0-6.358-0.374-6.358-0.762C26.496,21.367,29.342,21.055,32.854,21.055z"/&gt;
+&lt;linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="619.8379" y1="2001.7183" x2="617.1611" y2="2001.7183" gradientTransform="matrix(1 0 0 1 -585.5996 -1982.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#999999"/&gt;
+	&lt;stop  offset="0.0417" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.1617" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.2821" style="stop-color:#5D5D5D"/&gt;
+	&lt;stop  offset="0.4021" style="stop-color:#515151"/&gt;
+	&lt;stop  offset="0.5212" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.6202" style="stop-color:#565656"/&gt;
+	&lt;stop  offset="0.7817" style="stop-color:#6E6E6E"/&gt;
+	&lt;stop  offset="0.9844" style="stop-color:#969696"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_13_)" d="M34.222,21.906c0,0-0.791,0.052-1.338,0.052c-0.547,0-1.338-0.052-1.338-0.052v-5.232h2.677
+	L34.222,21.906L34.222,21.906z"/&gt;
+&lt;radialGradient id="SVGID_14_" cx="481.6387" cy="1987.6978" r="12.8975" gradientTransform="matrix(1.15 0 0 1 -526.6041 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="1" style="stop-color:#666666"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_14_)" d="M19.072,1.137c0-0.59,0.482-1.072,1.071-1.072h25.843c0.589,0,1.071,0.482,1.071,1.072v16.108
+	c0,0.589-0.482,1.071-1.071,1.071H20.145c-0.589,0-1.071-0.482-1.071-1.071L19.072,1.137L19.072,1.137z"/&gt;
+&lt;path fill="none" stroke="#666666" stroke-width="0.1305" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M19.072,1.137c0-0.59,0.482-1.072,1.071-1.072h25.843c0.589,0,1.071,0.482,1.071,1.072v16.108c0,0.589-0.482,1.071-1.071,1.071
+	H20.145c-0.589,0-1.071-0.482-1.071-1.071L19.072,1.137L19.072,1.137z"/&gt;
+&lt;radialGradient id="SVGID_15_" cx="455.0566" cy="1983.3345" r="28.5689" fx="477.5316" fy="1979.4844" gradientTransform="matrix(1.1935 0 0 1 -509.6013 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_15_)" d="M19.621,1.685c0-0.59,0.482-1.072,1.072-1.072h24.87c0.589,0,1.071,0.482,1.071,1.072v14.894
+	c0,0.589-0.482,1.071-1.071,1.071h-24.87c-0.589,0-1.072-0.482-1.072-1.071V1.685z"/&gt;
+&lt;radialGradient id="SVGID_16_" cx="455.9854" cy="1983.3784" r="18.3134" gradientTransform="matrix(1.1923 0 0 1 -510.0601 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#9CD7FF"/&gt;
+	&lt;stop  offset="1" style="stop-color:#3C89C9"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_16_)" d="M19.924,1.928c0-0.59,0.482-1.072,1.072-1.072h24.262c0.589,0,1.07,0.482,1.07,1.072v14.406
+	c0,0.588-0.481,1.07-1.07,1.07H20.997c-0.589,0-1.072-0.482-1.072-1.07V1.928z"/&gt;
+&lt;path opacity="0.24" fill="#F2F2F2" d="M19.924,13.358V1.928c0-0.59,0.482-1.072,1.072-1.072h24.262c0.589,0,1.07,0.482,1.07,1.072
+	V9.18l-12.408,2.646c-0.569,0.146-1.519,0.294-2.106,0.326L19.924,13.358z"/&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="5" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="71px" height="43px" viewBox="-1 -0.044 71 43" enable-background="new -1 -0.044 71 43"
+	 xml:space="preserve"&gt;
+&lt;defs&gt;
+&lt;/defs&gt;
+&lt;linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="807.2808" y1="1849.3247" x2="783.5425" y2="1849.3247" gradientTransform="matrix(1 0 0 1 -760.5996 -1807.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path display="none" fill="url(#SVGID_1_)" d="M46.527,40.407c0,0.965-6.758,1.404-12.371,1.404c-3.889,0-10.914-0.349-11.367-1.268
+	c0,0.446,0,1.502,0,1.661c0,0.726,4.803,1.233,11.357,1.233c6.554,0,12.381-0.643,12.381-1.36
+	C46.527,41.921,46.527,40.87,46.527,40.407z"/&gt;
+&lt;path display="none" fill="#808080" d="M34.658,39.2c6.556,0,11.869,0.584,11.869,1.307c0,0.721-5.313,1.42-11.869,1.42
+	c-6.701,0-11.869-0.697-11.869-1.42S28.104,39.2,34.658,39.2z"/&gt;
+&lt;linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="797.8442" y1="1843.356" x2="792.8472" y2="1843.356" gradientTransform="matrix(1 0 0 1 -760.5996 -1807.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#999999"/&gt;
+	&lt;stop  offset="0.0417" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.1617" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.2821" style="stop-color:#5D5D5D"/&gt;
+	&lt;stop  offset="0.4021" style="stop-color:#515151"/&gt;
+	&lt;stop  offset="0.5212" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.6202" style="stop-color:#565656"/&gt;
+	&lt;stop  offset="0.7817" style="stop-color:#6E6E6E"/&gt;
+	&lt;stop  offset="0.9844" style="stop-color:#969696"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path display="none" fill="url(#SVGID_2_)" d="M37.212,40.79c0,0-1.477,0.096-2.498,0.096s-2.499-0.096-2.499-0.096v-9.768h4.997
+	V40.79z"/&gt;
+&lt;linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="52.1938" y1="42.0806" x2="17.5693" y2="42.0806"&gt;
+	&lt;stop  offset="0" style="stop-color:#999999"/&gt;
+	&lt;stop  offset="0.0417" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.1617" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.2821" style="stop-color:#5D5D5D"/&gt;
+	&lt;stop  offset="0.4021" style="stop-color:#515151"/&gt;
+	&lt;stop  offset="0.5212" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.6202" style="stop-color:#565656"/&gt;
+	&lt;stop  offset="0.7817" style="stop-color:#6E6E6E"/&gt;
+	&lt;stop  offset="0.9844" style="stop-color:#969696"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_3_)" d="M51.97,42.018c0,0.516-0.45,0.938-1,0.938H18.345c-0.55,0-1-0.422-1-0.938s0.249-0.813,0.249-0.813
+	l34.146,0.028C51.74,41.234,51.97,41.502,51.97,42.018z"/&gt;
+&lt;linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="52.0024" y1="39.5415" x2="17.7529" y2="39.5415"&gt;
+	&lt;stop  offset="0" style="stop-color:#999999"/&gt;
+	&lt;stop  offset="0.0417" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.1617" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.2821" style="stop-color:#5D5D5D"/&gt;
+	&lt;stop  offset="0.4021" style="stop-color:#515151"/&gt;
+	&lt;stop  offset="0.5212" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.6202" style="stop-color:#565656"/&gt;
+	&lt;stop  offset="0.7817" style="stop-color:#6E6E6E"/&gt;
+	&lt;stop  offset="0.9844" style="stop-color:#969696"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_4_)" d="M51.782,41.286h-34.25l2.179-2.714c0.349-0.426,1.083-0.774,1.633-0.774h26.625
+	c0.55,0,1.285,0.349,1.633,0.774L51.782,41.286z"/&gt;
+&lt;linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="797.8442" y1="1842.3892" x2="792.8472" y2="1842.3892" gradientTransform="matrix(1 0 0 1 -760.5996 -1807.4023)"&gt;
+	&lt;stop  offset="0" style="stop-color:#999999"/&gt;
+	&lt;stop  offset="0.0417" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.1617" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.2821" style="stop-color:#5D5D5D"/&gt;
+	&lt;stop  offset="0.4021" style="stop-color:#515151"/&gt;
+	&lt;stop  offset="0.5212" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.6202" style="stop-color:#565656"/&gt;
+	&lt;stop  offset="0.7817" style="stop-color:#6E6E6E"/&gt;
+	&lt;stop  offset="0.9844" style="stop-color:#969696"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_5_)" d="M37.212,39.694c0,0-1.478,0.354-2.499,0.354c-1.021,0-2.499-0.354-2.499-0.354v-9.768h4.997V39.694z"
+	/&gt;
+&lt;radialGradient id="SVGID_6_" cx="657.0923" cy="1817.3071" r="24.0778" gradientTransform="matrix(1.513 0 0 1 -973.8635 -1807.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="1" style="stop-color:#666666"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_6_)" d="M0.14,2.14c0-1.1,1.184-2,2.631-2h63.474c1.446,0,2.631,0.9,2.631,2v30.073c0,1.101-1.185,2-2.631,2
+	H2.771c-1.447,0-2.631-0.899-2.631-2V2.14z"/&gt;
+&lt;path fill="none" stroke="#666666" stroke-width="0.2794" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M0.14,2.14c0-1.1,1.184-2,2.631-2h63.474c1.446,0,2.631,0.9,2.631,2v30.073c0,1.101-1.185,2-2.631,2H2.771
+	c-1.447,0-2.631-0.899-2.631-2V2.14z"/&gt;
+&lt;radialGradient id="SVGID_7_" cx="635.0688" cy="1809.1597" r="53.3331" fx="677.0258" fy="1801.9722" gradientTransform="matrix(1.5073 0 0 1 -921.6763 -1807.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_7_)" d="M2.813,3.161c0-1.1,1.136-2,2.525-2h58.636c1.389,0,2.525,0.9,2.525,2v27.805c0,1.1-1.137,2-2.525,2
+	H5.339c-1.389,0-2.525-0.9-2.525-2V3.161z"/&gt;
+&lt;radialGradient id="SVGID_8_" cx="636.0776" cy="1809.2437" r="34.1874" gradientTransform="matrix(1.5102 0 0 1 -924.7913 -1807.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#9CD7FF"/&gt;
+	&lt;stop  offset="1" style="stop-color:#3C89C9"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_8_)" d="M3.439,3.616c0-1.1,1.14-2,2.533-2h57.371c1.394,0,2.532,0.9,2.532,2V30.51c0,1.1-1.139,2-2.532,2
+	H5.972c-1.393,0-2.533-0.9-2.533-2V3.616z"/&gt;
+&lt;path opacity="0.24" fill="#F2F2F2" enable-background="new    " d="M3.356,23.653V3.616c0-1.1,1.143-2,2.54-2h57.522
+	c1.398,0,2.54,0.9,2.54,2v13.539c0,0-17.706,2.838-34.415,4.549C14.834,23.414,3.356,23.653,3.356,23.653z"/&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="6" type="java.awt.image.BufferedImage" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAEqElEQVR4Xq1WW2xUVRQdo4km/vlK&#13;
+/PLHxL/amSlEpB+N/2IIAdREITG+OjOlaP0AKlRLaOsDavAVE41RgqDyjhFBiiGIBQYRqFJA2ipz&#13;
+596ZTtt5v6fbvc6de+fOuXcaStzJguk+e691Hvvsc12uedqitTfucQeUt9x+ZcrjV2L4DZ8c97+Z&#13;
+96XwfR5/eLPHpyRZkOogfOHNC32he+W8WzZ3QL2fyQcYaZugHSnEIkfmuWlrekV7wBsIv89EGQcB&#13;
+WtQZFpD9VaSRCw6Zt6F5Oyce9PhDg5ycdSA0cfZSRkD2S8iCC5yyjsXoNi6YPg7OOxDYcOp8WkD2&#13;
+N0DeG1D6oSGrulh0iUNCQwydTtHQcMrmnxMB5UlZ1+X2KR9Yg9xyEmPFRpX2H0vQ6Fie8oVZgcvX&#13;
+c/T9kTgt3aDa4plT8oUGZV2XJxA6Y01QYyXaczRuJh0YSlChOEuNLMeT+O6nWvzen+OkMUfdAlij&#13;
+TrRt9fhdPFC0zm73j3GxomO8necvZwV5OlsRE3jubY2iUyWBVb0aHTqeoAyPwYIjGTrOx5DLV2jn&#13;
+DzPSipXiw4Frd5rCzR3K41KAQOC9CJVK+irVySKteLO2nclMRcD4+5kelSI8EViRc17u02x8ALRM&#13;
+YT70N+QAIfxuhMr6QqjC/x8+maSWgD5WKs8K4PcC9h09laRK9STK7G9/J2LjA7x+pasm7Ff2yQHA&#13;
+b3+kBdEB3spURp/BeKhA276O0SyLANt3TtGEUhBjqXSZDnIsbI6rttcqrMoBzVxg8VSZZpJlUSA+&#13;
+XgF+N7LpeJleHdBEbKKaBw6ZF1pC1O0LP+QwSE+tVwXhhdGs6XueiwrbCxsdywnA4Hu2p3b+F6/o&#13;
+xbhknf2KAdDEalfKA8CL/RGRHOS2uKxbpS/3T9PINV0I5/7YGkXAqIE/eeyrgzPiriMHBg6Zt4qV&#13;
+tsZhYO02XRhXCoUl24mzKToR1GvAaigw5MC6Bp2FoYkVBw0HzuT0xQz9Ey6YzQL/onjOsP/bw3HR&#13;
+JmVDRe/iez/MxTjGxYeig+Fa3VAL4m4/Wn/eQQgXDAcGhy9kaB93HR9fpUtX9a3t+yJmJhlViwJK&#13;
+pvViO/RLwhzv/WxS+LD1L2zRRDv99fe0LFxw8dfDqMVRh3Xbo2L24WiR2l7T397Jab1J9PNktnyu&#13;
+i8RmSmKsld/nkFYUOd0fR218JljT5W0Pt/IfJdtgFZgt7K+/c7R1x5T4fWU8b44blb11R8zcIeya&#13;
+zGNBqcWvLBZXit/KDocAgdZOha5O5AWhUWTdn9RWs/6jqPAZ1X3937y5O07gex4wGwiM2+ZuOcjA&#13;
+4k794TcMhadx7wbylhcLBfjE641FGbvqRGFNXdrd3EdHHIIFPvxmijK5Cp08lxZnDnFULR4PTAov&#13;
+F2LkPAPghoasK6xljfKI0+frwg5+n1lsz5Hae4sqbbJUKt5iTAJNRc4HJ7hlvTrz+MJL5cSNfKZ4&#13;
+cVb3Oj91wCpup4jZ9KlDNTOnrONoHv07ui756U3OfdeKZZb32oIBmb+htfXQHTzLIQeS+YE5li+n&#13;
+22X+OQ0f45ys2MhuHsq8Puit1tyuLrhFcQW5Mp/V/gNy4gddyMqtcAAAAABJRU5ErkJggg==</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>
