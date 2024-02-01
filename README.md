@@ -167,3 +167,6 @@ kubectl port-forward svc/fiap-fastfood 8080:8080 -n default &
 ```
 
 O vídeo da implementação desta fase pode ser acessado através deste link: [Apresentação Entrega - Fase 2](https://vimeo.com/907687370?share=copy).
+
+
+### [Desenhos de solução](diagramas)
