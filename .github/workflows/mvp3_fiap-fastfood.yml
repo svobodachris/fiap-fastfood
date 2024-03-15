@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/build/libs/*.jar'
+          path: '${{ github.workspace }}/build/libs/fiap-fastfood-1.0.0.jar'
 
   deploy:
     runs-on: ubuntu-latest
