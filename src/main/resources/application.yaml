@@ -14,11 +14,11 @@ spring:
   data:
     mongodb:
       repositories: true
-      port: ${MONGODB_PORT:27017}
+      port: 10255
       auto-index-creation: true
       uuid-representation: standard
-      host: ${MONGODB_HOST:localhost}
+      host: fiap-fastfood-server.mongo.cosmos.azure.com
       authentication-database: admin
-      database: ${MONGODB_DATABASE:fastfood}
-      username: ${MONGODB_USERNAME:root}
-      password: ${MONGODB_PASSWORD:rootpassword}
+      database: fiap-fastfood-server
+      username: fiap-fastfood-server
+      password: AKFCQrblnQ4kgHDeqVkcHXTdfjPnLAYFc2dW0AeCDj8oMmayvDdWZvWlPveThyOQ1c66yX6aAIzgACDbBSiQxg==
