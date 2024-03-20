@@ -190,3 +190,8 @@ Optamos pela escolha de um banco NoSQL baseado em documento, pela facilidade de 
 
 Desenho da nossa estrutura de banco de dados:
 ![Banco de Dados](diagramas/fastfood_mongodb.jpg)
+
+## Extensões
+Terraform Banco de Dados - https://github.com/svobodachris/fiap-fastfood-db-terraform
+
+Terraform Aplicação - https://github.com/svobodachris/fiap-fastfood-terraform
