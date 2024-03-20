@@ -46,6 +46,12 @@ repositories {
   mavenCentral()
 }
 
+jar {
+    // disable generation of **--plain.jar
+    enabled = false
+    archiveFileName = bootJar.archiveFileName
+}
+
 configurations.all {
   resolutionStrategy {
     cacheDynamicVersionsFor 0, "seconds"
