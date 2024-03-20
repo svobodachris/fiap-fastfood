@@ -170,3 +170,23 @@ O vídeo da implementação desta fase pode ser acessado através deste link: [A
 
 
 ### [Desenhos de solução](diagramas)
+
+fastfood_mongodb.jpg
+# Início rápido - Entrega Fase 3
+
+Neste módulo, levamos nosso projeto para rodar na Azure.
+
+1. Implementação de API Gateway e function serverless para autenticar o cliente com base no CPF;
+
+2. Implementação de CI/CD;
+
+3. Deploy automatizado;
+
+4. Melhoria na estrutura do banco de dados e justificativa da escolha do banco;
+    
+
+## Banco de Dados - MongoDB
+Optamos pela escolha de um banco NoSQL baseado em documento, pela facilidade de configuração, por fornecer um esquema flexível (que nos permite mudar a estrutura com base nos requisitos) e por atender as necessidades do desafio proposto na fase 3.
+
+Desenho da nossa estrutura de banco de dados:
+![Banco de Dados](diagramas/fastfood_mongodb.jpg)
